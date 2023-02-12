@@ -3,9 +3,9 @@ let color = document.getElementById('colorPicker');
 let table = document.getElementById('pixelCanvas');
 let sizePicker = document.getElementById('sizePicker');
 
-makeGrid(height, width);
 let height = document.getElementById('inputHeight').value;
 let width = document.getElementById('inputWidth').value;
+makeGrid(height, width);
 
 sizePicker.addEventListener('click', (e) => {
 
